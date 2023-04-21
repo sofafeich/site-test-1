@@ -1,0 +1,622 @@
+@font-face {
+    font-family: "Larsseit";
+    src: url("./fonts/larsseit_regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.block-1{
+    height: 840px;
+    background: #F4F9E2;
+}
+.block-1:before{
+    display: block;
+    content: "";
+    position: absolute;
+    height: 718px;
+    width: 100%;
+    background-image: url("./img/MaskGroup.png"), url("./img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.container{
+    width: 1084px;
+    margin: 0 auto;
+}
+.block-1 .header > div {
+    float: left;
+
+}
+
+.block-1 .header:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.block-1 .menu a{
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #22356F;
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.block-1 .menu a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0px;
+    left: 50%;
+    height: 5px;
+    background: #F4F9E2;
+    box-shadow: inset 0px -1px 0px #22356F;
+    transition: .6s;
+
+}
+.block-1 .menu a:hover:after{
+    width: 100%;
+    left: 0px;
+}
+.block-1 .header .logo{
+    font-weight: bold;
+    margin-right: 300px;
+    margin-top: 27px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 27px;
+    /* identical to box height */
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+}
+.block-1 .header .menu{
+    margin-top: 40px;
+}
+.block-1 .header .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-left: 265px;
+    width: 150px;
+    height: 50px;
+    background: #62D0DF;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.block-1 .header .contact a{
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.block-1 .block-2{
+    margin-top: 164px;
+
+}
+.block-1 .block-2 .logo{
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;
+    margin-bottom: 45px;
+}
+.block-1 .block-2 .title{
+    margin-bottom: 19px;
+    height: 167px;
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+}
+.block-1 .block-2 .text{
+    height: 161px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+    margin-bottom: 63px;
+}
+.block-1 .block-2 .who{
+    display: flex;
+
+}
+.block-1 .block-2 .who .button{
+    height: 50px;
+    width: 150px;
+    background: #F4F9E2;
+}
+.block-1 .block-2 .who .button a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+}
+.block-1 .block-2 .who .button:hover{
+    background: #F9B640;
+
+}
+.block-1 .block-2 .who .button:hover a{
+    color: #FFFFFF;
+}
+.block-1 .block-2 .who .button-1{
+    margin-left: 38px;
+    height: 50px;
+    width: 150px;
+    background: #F4F9E2;
+}
+.block-1 .block-2 .who .button-1 a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+}
+.block-1 .block-2 .who .button-1:hover{
+    background: #F9B640;
+
+}
+.block-1 .block-2 .who .button-1:hover a{
+    color: #FFFFFF;
+}
+.block-3{
+    height: 607px;
+    background: #62D0DF;
+    position: relative;
+}
+.block-3 .photo{
+    position: absolute;
+    width: 525px;
+    height: 604px;
+    right: 0px;
+    top: 0px;
+    background-image: url("./img/photo1.jpg");
+}
+.block-3 .title{
+    padding-top: 151px;
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 27px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+.block-3 .text{
+    margin-top: 75px;
+    width: 555px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.block-3 .text span{
+    font-weight: bold;
+}
+.block-4{
+    height: 481px;
+}
+.block-4 .biography{
+
+}
+.block-4 .biography:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.block-4 .about{
+    float: left;
+    padding-top: 156px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+}
+.block-4 .text{
+    padding-left: 225px;
+    padding-top: 150px;
+    width: 592px;
+    height: 210px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    float: left;
+    color: #22356F;
+}
+.block-4 .help{
+    padding-top: 436px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.block-5{
+    height: 480px;
+}
+.block-5 .color .item{
+    float: left;
+    width: 25%;
+    height: 360px;
+}
+.block-5 .color-block1{
+    background: #FFE2DE;
+}
+.block-5 .color-block2{
+    background: #C4E769;
+}
+.block-5 .color-block3{
+    background: #62D0DF;
+}
+.block-5 .color-block4{
+    background: #0052C1;
+}
+.block-5 .color .item .text{
+    font-weight: bold;
+    padding-top: 23px;
+    padding-left: 30px;
+    position: relative;
+    border-top: 1px solid #FFFFFF;
+    margin: 95px 52px;
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+.block-5 .color .item .text:before{
+    top: 35px;
+    left: 0px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #E9B730;
+}
+.block-6{
+    height: 960px;
+}
+.block-6 .color .item{
+    float: left;
+    width: calc(100% / 3);
+    height: 480px;
+}
+.block-6 .color-block1{
+    background: #22356F;
+}
+.block-6 .color-block2{
+    background: #0052C1;
+}
+.block-6 .color-block3{
+    background-image: url("./img/strawberry.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto ;
+}
+.block-6 .color-block4{
+    background: #62D0DF;
+}
+.block-6 .color-block5{
+    background: #DEE1FF;
+}
+.block-6 .color-block6{
+    background: #8F00FF;
+}
+.block-6 .color .item .text {
+    font-weight: bold;
+    padding-top: 35px;
+    padding-left: 30px;
+    position: relative;
+    border-top: 1px solid #FFFFFF;
+    margin: 95px 52px;
+    font-family: 'Larsseit';
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+.block-6 .color .item .text:before {
+    top: 47px;
+    left: 0px;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #E9B730;
+}
+.block-7{
+    height: 542px;
+
+}
+.block-7 .lessons{
+    margin-top: 22px;
+
+}
+.block-7 .lessons .lesson{
+    width: calc(100% / 3);
+    height: 240px;
+    float: left;
+    align-items: center;
+}
+.block-7 .lessons .lesson .title{
+    margin-top: 55px;
+    margin-left: 105px;
+    font-family: 'Larsseit';
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+
+    color: #22356F;
+
+}
+.block-7 .lessons .lesson .text{
+    margin-top: 28px;
+    margin-left: 105px;
+    width: 298px;
+    height: 84px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+
+    color: rgba(34, 53, 111, 0.5);
+}
+.block-8{
+    height: 800px;
+    background-image: url("./img/photo2.png");
+    background-repeat: no-repeat;
+}
+.block-8 .content{
+    width: 66.66%;
+    float: right;
+}
+.block-8 .content .title{
+    margin-top: 103px;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+}
+.block-8 .content .text{
+    margin-top: 225px;
+    font-weight: bold;
+    width: 676px;
+    height: 215px;
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+}
+.block-8 .content .text .color-text{
+    color: #6CD3E1;
+}
+.block-8 .content .button{
+    margin-top: 152px;
+    height: 50px;
+    width: 150px;
+    background: #FFFFFF;
+    transition: .4s;
+}
+.block-8 .content .button a{
+    transition: .4s;
+    padding-top: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    color: #FAB63E;
+}
+.block-8 .content .button:hover{
+    background: #F9B640;
+}
+.block-8 .content .button:hover a{
+    color: #FFFFFF;
+}
+.block-9{
+    height: 800px;
+    background: #22356F;
+    position: relative;
+}
+.block-9 .photo {
+    position: absolute;
+    width: 480px;
+    height: 800px;
+    right: 0px;
+    top: 0px;
+    background-image: url("./img/photo3.png");
+}
+.block-9 .container .contact{
+    padding-top: 56px;
+
+    width: 108px;
+    height: 30px;
+}
+.block-9  .contact a{
+
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.block-9 .contact a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0px;
+    left: 50%;
+    height: 5px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -3px 0px #22356F;
+    transition: .6s;
+}
+.block-9 .contact a:hover:after{
+    width: 100%;
+    left: 0px;
+    margin-top: 10px;
+}
+.block-9 .container .title{
+    margin-top: 220px;
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.block-9 .container .text{
+    width: 579px;
+    height: 253px;
+    font-family: 'Larsseit';
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    margin-top: 75px;
+    color: #FFFFFF;
+}
+.block-9 .container .help{
+    height: 43px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #22356F;
+    border-radius: 10px;
+}
+.block-9 .container .help a{
+    text-decoration: none;
+    font-family: 'Larsseit';
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+    transition: .4s;
+
+}
+.block-9 .container .help:hover{
+    border-radius: 10px;
+    background: #62D0DF;
+    color: #FFFFFF;
+    transition: .4s;
+}
+.block-9 .container .help:hover a{
+    color: #FFFFFF;
+}
+.block-10{
+    height: 380px;
+    background-image: url("./img/photo4.png");
+    background-repeat: no-repeat;
+
+}
+.block-11{
+    width: 72%;
+    height: 380px;
+    float: right;
+
+}
+.block-10 .content{
+    margin-top: 98px;
+    margin-left: 150px;
+    float: left;
+    height: 183px;
+}
+.block-10 .content .text1{
+    width: 207px;
+    height: 115px;
+}
+.block-10 .content .text2{
+    width: 240px;
+    height: 115px;
+}
+.block-10 .content .text3{
+
+    width: 240px;
+    height: 115px;
+}
+.block-10 .content .item{
+    margin-top: 48px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: rgba(34, 53, 111, 0.5);
+}
+.block-10 .content .title{
+    font-weight: bold;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+}
+.block-10 .content .text2 a{
+    text-decoration: none;
+    color: #006DFF;
+}
+.block-12{
+    height: 80px;
+    background: #62D0DF;
+
+}
+.block-12 .end{
+    display: flex;
+    float: left;
+    margin-top: 34px;
+}
+.block-12 .end .logo{
+    margin-left: 179px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
+.block-12 .end .text{
+    margin-left: 6px;
+    font-family: 'Larsseit';
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+}
